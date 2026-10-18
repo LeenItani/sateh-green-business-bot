@@ -71,10 +71,8 @@ flowchart LR
 | Working router                            | §3: regex → keywords → LLM, with an LLM-failure fallback; 16-message test including hard cases ("How *late* are you open?") |
 | Two working tools                         | §4: `record_customer_interest`, `record_feedback`, with MCP-style schemas; print + JSONL + optional Pushover                |
 | Agent interaction                         | §5–6: route-specific system prompt and tool forcing; tool loop over chat history                                            |
-| Gradio ChatInterface                      | §9: `gr.ChatInterface` in a custom "Rooftop Studio" layout with a live Agent Inspector and Team Inbox                       |
-| API key in `.env`                         | `.env.example` provided; `.env` is git-ignored                                                                              |
-| Reflection                                | §7: draft vs. revised reply logged to console, `logs/reflections.jsonl`, and shown in the UI                                |
-| Hugging Face Spaces                       | `app.py` + the front matter above                                                                                           |
+| Gradio ChatInterface                      | §9: `gr.ChatInterface` in a custom "Rooftop Studio" layout with a live Agent Inspector and Team Inbox                       |                                                                           |
+| Reflection                                | §7: draft vs. revised reply logged to console, `logs/reflections.jsonl`, and shown in the UI                            
 
 
 
