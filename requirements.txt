@@ -1,0 +1,5 @@
+openai>=1.40
+python-dotenv
+pypdf
+gradio>=5.0
+requests
