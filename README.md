@@ -1,12 +1,4 @@
----
-title: Sateh Green Concierge
-emoji: 🌿
-colorFrom: green
-colorTo: yellow
-sdk: gradio
-app_file: app.py
-pinned: false
----
+
 
 # 🌿 Sateh Green — Agent-Powered Business Assistant
 
